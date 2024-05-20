@@ -33,6 +33,7 @@
 1. **Integrações de API**: O Mailtrap pode se integrar à API do PayPal para facilitar as transações financeiras, como o pagamento de mensalidades escolares.
 2. **Serviços de Autenticação**: O SMTP pode permitir que os usuários façam login usando suas contas do Google, facilitando o processo de autenticação e aumentando a segurança.
 3. **Serviços de Armazenamento em Nuvem**: O Mailtrap pode usar o Amazon S3 para armazenar e recuperar dados, como informações de alunos, planos de aula e notas.
-4. **Serviços de Email e SMS**: O Mailtrap pode usar o serviço de email do SMTP para enviar notificações por email: escola@email.com para á manutenção verificar o desempenho do sistema manutenção. Além disso, pode usar o serviço de SMS escola@email.com da   para enviar lembretes de eventos escolares.
+4. **Serviços de Email e SMS**: **: Serviço de envio de E-mail: A aplicação oferece o serviço de abertura de chamados (em tickets) para manutenção e suporte de materiais escolares e de laboratório (informática, artes, ciências etc.). A cada abertura de um novo chamado, feita pela instituição escolar, um e-mail de confirmação é enviado para a própria instituição e outro é destinado ao suporte. Para realizar o envio de e-mails é necessário um servidor SMTP (Simple Mail Transfer Protocol). O serviço escolhido foi o Mailtrap, que oferece um pacote de teste gratuito, ideal para o desenvolvimento da aplicação e realização de testes. Outro motivo da escolha pelo Mailtrap é o suporte e integração com Node.js e a biblioteca nodemailer, utilizados para desenvolver a aplicação.
+   
 5. **Ferramentas de Análise**: O Mailtrap pode usar o Google Analytics para entender melhor como os usuários estão interagindo com o software e identificar áreas para melhoria.
 
